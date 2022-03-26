@@ -2,7 +2,7 @@
 using namespace std;
 
 vector<int>twoSum(vector<int>&nums,int target){
-	int i=0;
+	//int i=0;
 	map<int,int>m;
 	vector<int>ans;
 	for(int i=0;i<nums.size();i++){
